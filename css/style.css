@@ -1,0 +1,359 @@
+/* COMMON CSS STYLE STERTS HEAR */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol
+{
+    list-style: none;
+}
+body
+{
+    font-family: "Poppins";
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container01
+{
+    max-width: 1240px;
+    margin: auto;
+}
+.container01
+{
+    max-width: 1240px;
+    margin: auto;
+}
+.bassick_button
+{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 22px 52px;
+    background-color: #B88E2F;
+    border: 0px;
+    outline: 0px;
+    display: inline-block;
+}
+.main_title
+{
+    font-weight: 700;
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+}
+/* COMMON CSS STYLE ENDS HEAR */
+/************************/
+/* NAB BAR CSS STYLE STERTS HEAR */
+nav
+{
+    align-items: center;
+}
+.logo
+{
+    width: 25%;
+    align-items: center;
+    padding: 15px 0px;
+}
+.main_manu
+{
+    width: 50%;
+    text-align: center;
+
+}
+.manu_icon
+{
+    width: 25%;
+}
+.main_manu ul li,
+.manu_icon ul li
+{
+    margin: 24px 32px;
+    display: inline-block;
+}
+.main_manu ul li a
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.manu_icon
+{
+    text-align: end;
+}
+.manu_icon ul li
+{
+    margin: 24px 0px 24px 45px; 
+    display: inline-block;
+    justify-content: end;
+}
+.manu_icon ul li a i
+{
+    color: #000;
+    font-size: 24px;
+}
+/* NAB BAR CSS STYLE ENDS HEAR */
+/************************/
+/* SECTION 02 CSS STYLE STERTS HEAR */
+.section01
+{
+    background-image: url(../images/background_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+.section01 .text_box
+{
+    border-radius: 10px;
+    width: 480px;
+    /* height: 380px; */
+    padding: 60px 40px 40px;
+    background: #fff3e3;
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    align-items: center;
+}
+.section01 .text_box .title
+{   
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #333;
+}
+.section01 .text_box .head_line
+{   
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    color:#B88E2F;
+}
+.section01 .text_box .description
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* SECTION 02 CSS STYLE ENDS HEAR */
+/* SECTION 03 CSS STYLE STERTS HEAR */
+.section02
+{
+    padding-top: 60px;
+    margin: auto;
+    text-align: center;
+}
+
+.section02 .sub_title
+{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #666;
+}
+.section02 .img_body
+{
+    margin-bottom: 50px;
+}
+.section02 .dining,
+.section02 .living,
+.section02 .bedroom
+{
+    width: 375px;
+    height: 480px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.section02 .dining .img_name,
+.section02 .living .img_name,
+.section02 .bedroom .img_name
+{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-top: 15px;
+}
+/* SECTION 03 CSS STYLE ENDS HEAR */
+/* SECTION 04 CSS STYLE SERTS HEAR */
+.section03 {
+    margin: auto;
+}
+.section03 .productCard
+{
+    width: calc(25% - 2rem);
+    margin: 10px 16px;
+    position: relative;
+}
+.section03 .product_img img
+{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+
+
+
+.section03 .productCard .productCard_hoverlay .hover_button
+{
+    width: 202px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b88e2f;
+    text-align: center;
+    margin:  0px 41px;
+
+}
+.section03 .productCard .productCard_hoverlay .icon
+{
+    margin-top: 24px;
+}
+.section03 .productCard .productCard_hoverlay .icon a
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    padding: 0 10px;
+
+}
+.section03 .productCard .productCard_hoverlay .icon a i 
+{
+    
+    padding: 0 2px;
+}
+.section03 .productCard .productCard_hoverlay
+{
+    display: block;
+    position: absolute;
+    bottom: 38%;
+    opacity: 0;
+    transition: 0.8s ease;
+}
+.section03 .productCard:hover .productCard_hoverlay
+{
+    opacity: 1;
+}
+.section03 .productCard:hover
+{
+    background-color: green;
+} 
+
+
+
+
+.section03 .product_img .discunt_persen
+{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    border-radius: 50px;
+    background-color: #E97171;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.section03 .product_text
+{
+    background-color: #F4F5F7;
+    padding: 16px 16px 30px;
+}
+.section03 .productCard .product_text .title
+{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3a3a3a;
+    margin-bottom: 6px;
+}
+.section03 .productCard .product_text .sub_title
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    margin-bottom: 6px;
+}
+.section03 .productCard .product_text .active_price
+{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3a3a3a;
+    margin-right: 16px;
+}
+.section03 .productCard .product_text span
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: line-through;
+    color: #b0b0b0;
+}
+.section03 .more_cart
+{
+    border: 1px solid #b88e2f;
+    /* width: 245px;
+    height: 48px; */
+    padding: 16px 80px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b88e2f;
+    margin: 40px 0px;
+    display: inline-block;
+}
+
+/* SECTION 04 CSS STYLE ENDS HEAR */
+
+/* <!-- SHOP BANER SECTION STERTS HEAR --> */
+.banar_section .text_body
+{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 316px;
+}
+.banar_section h2
+{
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+}
+.banar_section p
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.banar_section span
+{
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+/* <!-- SHOP BANER SECTION ENDS HEAR --> */
